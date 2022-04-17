@@ -12,7 +12,10 @@ var lname = prompt("Enter Your Last Name");
 
 var first4 = fname.slice(0,4);
 var first = lname.slice(0,1);
+var combine = first4 + first;
 
-var output = "Your CapacityBay User ID is " + first4 + first
+var lower = combine.toLowerCase();
 
-alert(output);
+var output = "Your CapacityBay User ID is " + lower
+
+alert(output); 
